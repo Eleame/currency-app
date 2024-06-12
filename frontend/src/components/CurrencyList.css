@@ -1,0 +1,33 @@
+.currency-list {
+    margin: 20px 0;
+}
+
+.currency-list h2 {
+    margin-bottom: 10px;
+}
+
+.currency-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.currency-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.currency-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.currency-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}

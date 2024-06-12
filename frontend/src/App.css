@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+.currency-header {
+  display: flex;
+  align-items: center;
+}
+
+.currency-image {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.add-values-button {
+  margin-top: 16px;
+}
+
+.add-currency-button {
+  margin-top: 16px;
+}
+
+.add-currency-button {
+  background-color: blue;
+  color: white;
+}
+
+.add-currency-button:hover {
+  background-color: darkblue;
+}
+
+.add-values-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-values-button:hover {
+  background-color: darkgreen;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+}
+
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.modal-content form label {
+  margin: 5px 0;
+}
+
+.modal-content form input {
+  margin: 5px 0 20px 0;
+  padding: 10px;
+  font-size: 16px;
+  width: calc(100% - 20px);
+}
+
+.value-table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+.value-table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.currency-dropdown select {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.bar-chart {
+  margin: 20px 0;
+}
+
+.value-table .edit-button {
+  background-color: yellow;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.value-table .edit-button:hover {
+  background-color: #d4d400;
+}
+
+.value-table .delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.value-table .delete-button:hover {
+  background-color: darkred;
+}
